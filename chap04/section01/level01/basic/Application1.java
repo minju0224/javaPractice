@@ -1,4 +1,4 @@
-package com.hanwhaswcamp.chap04.level01.basic;
+package com.hanwhaswcamp.chap04.section01.level01.basic;
 
 import java.util.Scanner;
 
