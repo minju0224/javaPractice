@@ -28,11 +28,12 @@ public class Application1 {
         }else{
             int count =0;
             for(int i=0;i<subject.length;i++){
-                if(subject[i]>=40){
+                if(subject[i]<40){
                     count++;
+                    System.out.println(subjectName[i]+"점수 미달로 불합격입니다.");
                 }
             }
-            if(count==3){
+            if(count==0){
                 System.out.println("합격입니다!");
             }
         }
