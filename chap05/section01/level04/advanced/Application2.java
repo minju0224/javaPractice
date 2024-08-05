@@ -14,6 +14,7 @@ public class Application2 {
         while (numCount <4){
             int newNum = random.nextInt(10);
             boolean unique = true;
+            // 중복 불가능하게 boolean으로 처리
             for(int i =0; i < a.length; i++){
                 if(a[i] == newNum){
                     unique = false;
@@ -46,8 +47,9 @@ public class Application2 {
                     }
                 }
             }
-            if(check == false){
+            if(!check){
                 System.out.println("중복된 수 입력 불가능합니다.");
+                continue;
             }
             char [] c = num.toCharArray();
 
