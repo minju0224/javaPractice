@@ -10,7 +10,7 @@ public class Application {
         book2.setPublisher("도우출판");
         book2.setAuthor("남궁성");
         book2.printInfomation();
-
+        // BookDTO b2 = new BookDTO("자바의 정석", "도우출판", "남궁성");
         BookDTO book3 = new BookDTO();
         book3.setTitle("홍길동전");
         book3.setPublisher("활빈당");
@@ -18,5 +18,6 @@ public class Application {
         book3.setPrice(5000000);
         book3.setDiscountRate(0.5);
         book3.printInfomation();
+        // BookDTO b3 = new BookDTO("홍길동전", "활빈당", "허균", 5000000, 0.5);
     }
 }
